@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bhargav Photography</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+  body{
+    margin:0;padding:30px 20px;
+    font-family:Montserrat;
+    background:#0b0d13;color:#fff;
+  }
+  .container{max-width:1200px;margin:auto}
+  h1{text-align:center;font-family:Playfair Display;font-size:36px;margin-bottom:20px}
+
+  .buttons{
+    display:flex;gap:12px;justify-content:center;
+    margin-bottom:26px;flex-wrap:wrap
+  }
+  button{
+    padding:10px 18px;border-radius:30px;border:0;
+    cursor:pointer;font-weight:600;
+    background:#141824;color:#cfcfcf;
+    transition:.25s;
+  }
+  button.active{background:#71c9ff;color:#000}
+  button:hover{transform:translateY(-3px)}
+
+  .gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:14px;
+    margin-top:20px;
+  }
+
+  .card{
+    background:#11141d;border-radius:14px;
+    overflow:hidden;position:relative;
+  }
+  .card img{
+    width:300px ;height:295px;object-fit:cover;
+  }
+
+  .hidden{display:none}
+  .hidden-section{display:none !important}
+
+ .intro-section{
+   display:flex;
+   justify-content:space-between;
+   align-items:flex-start;
+   gap:30px;
+   margin:30px auto;
+   max-width:1100px;
+   flex-wrap:wrap;
+ }
+
+ .intro-text{
+   flex:1;
+   min-width:280px;
+ }
+ 
+ .intro-text p{
+    font-size:16px;
+    line-height:1.6;
+    color:#cfcfcf;
+  }
+
+ .intro-image{
+  text-align:center;
+ }
+
+ .intro-image img{
+   width:250px;
+   height:350px;
+   object-fit:cover;
+   border-radius:12px;
+   border:3px solid #71c9ff;
+ }
+
+ .my-name{
+   margin-top:10px;
+   font-size:18px;
+   color:#71c9ff;
+   font-weight:600;
+ }
+
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<h1>🌿 Nature Enthusiast 🌿</h1>
+
+<div class="intro-section">
+
+    <div class="intro-text">
+        <p>
+             I am Bhargav Pinapatruni, and my love for photography began in the year 2020. One rainy day, after the rain had stopped, I noticed aloe vera plants with small droplets glistening on them.
+ I captured their beauty with my camera and instantly fell in love with photography. Soon after, I started observing the world around me more closely.
+ I took pictures of a constructed, unpainted building nearby, exploring textures and structures. At that time, we were living in a rented house, and behind it, a new house was being constructed.
+ One day, after a heavy rain, I went to the third floor to capture some interesting shots. The sky was slightly dark as it was sunset, and the clouds looked like waves on a beach.
+ I took my time to experience the view, and eventually, I managed to capture a beautiful photograph of the sky and clouds from the terrace. I loved the result.
+ Gradually, my photography journey continued to evolve. While working out on the terrace, I began capturing birds in their natural habitat.
+ I experimented with different subjects and learned how to frame objects correctly, where to place them in a shot, and how to make compositions more appealing.<br>
+ Over time, my love for photography grew and my mobile became filled with countless pictures of nature. This is how my journey in photography began—slowly, patiently and passionately one shot at a time.
+            
+        </p>
+    </div>
+
+    <div class="intro-image">
+        <img src="https://i.postimg.cc/Fz9LtnSQ/Whats-App-Image-2025-12-10-at-10-59-49-AM.jpg">
+        <p class="my-name">Bhargav Pinapatruni</p>
+    </div>
+
+</div>
+
+
+<!-- FILTER BUTTONS -->
+<div class="buttons">
+  <button class="filter-btn active" data-filter="nature">Nature</button>
+  <button class="filter-btn" data-filter="wildlife">Wildlife</button>
+  <button class="filter-btn" data-filter="macro">Macro</button>
+  <button class="filter-btn" data-filter="night">Night</button>
+</div>
+
+<!-- ONE CLEAN GALLERY -->
+<div id="gallery" class="gallery hidden-section">
+
+  <!-- Nature -->
+  <div class="card nature"><img src="https://i.postimg.cc/3x1CjD0y/Save-Clip-App-376277748-1056915462392596-3457937866623959718-n.jpg"></div>  
+  <div class="card nature"><img src="https://i.postimg.cc/rp5xp0Gr/Save-Clip-App-346266172-609571387779352-377474899531720188-n.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/ZRMd78Jk/Save-Clip-App-377547709-151336491361348-6024067390461714508-n.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/W3cSvXbb/1000027847.webp"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/bry5XpqG/1000027861.png"></div> 
+  <div class="card nature"><img src="https://i.postimg.cc/6qPfHXqZ/1000027862.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/CMRPqPzz/1000027838.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/yx00TSMr/1000027859.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/W3gDRc5g/1000027856.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/4y3T6zHd/1000027848.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/fLz4sxKv/1000027846.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/8CG9dhx9/1000027839.webp"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/N0QC2QHh/1000027858.png"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/rmKBzqvP/1000027837.webp"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/N0Pn3WKG/1000027863.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/cC7XLjLd/1000027854.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/zX0F2TLP/1000027842.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/qMb2x0Sv/1000027855.webp"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/6Qd7gNjW/1000027836.webp"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/CLBx9g5J/1000027849.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/cL70N4S2/1000027860.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/zGkvFkVS/1000027850.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/wBvqc8CF/1000027870.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/VLWmxk1x/1000027880.webp"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/8Cq2F2Nv/1000027890.png"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/Df5xH9HH/1000027884.webp"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/7ZS087bH/1000027888.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/FzJ1b5Lt/1000027876.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/rsSRX2FC/1000027869.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/4yJsdD1C/1000027881.webp"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/jd1Y0wBr/1000027882.webp"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/DZwxw5bw/1000027874.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/Y2JTdKFp/1000027878.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/HsDPQ0Gn/1000027889.png"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/ncJ0sHmN/1000027883.webp"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/xjKPVWZt/1000027871.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/1XH6VZhn/1000027875.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/mD31KGrq/1000027872.jpg"></div>
+  <div class="card nature"><img src="https://i.postimg.cc/Gms2Z17b/1000027873.jpg"></div>
+  
+
+  <!-- Wildlife -->
+  <div class="card wildlife hidden"><img src="https://i.postimg.cc/BQqBSjTy/1000027832.webp"></div>
+  <div class="card wildlife hidden"><img src="https://i.postimg.cc/59pFmnvt/1000027833.png"></div>
+  <div class="card wildlife hidden"><img src="https://i.postimg.cc/nLYLhhGV/1000027830.jpg"></div>
+  <div class="card wildlife hidden"><img src="https://i.postimg.cc/hvHn0k17/1000027823.jpg"></div>
+  <div class="card wildlife hidden"><img src="https://i.postimg.cc/9FZ0nbw5/1000027829.jpg"></div>
+  <div class="card wildlife hidden"><img src="https://i.postimg.cc/tgTXpNJt/1000027827.jpg"></div>
+  <div class="card wildlife hidden"><img src="https://i.postimg.cc/4x3C9Ngw/1000027826.jpg"></div>
+  <div class="card wildlife hidden"><img src="https://i.postimg.cc/Y96DPJ7X/1000027824.webp"></div>
+  <div class="card wildlife hidden"><img src="https://i.postimg.cc/vmLWwM1B/1000027828.jpg"></div>
+  <div class="card wildlife hidden"><img src="https://i.postimg.cc/bvKRpLLc/1000027825.jpg"></div>
+  
+  <!-- Macro -->
+  <div class="card macro hidden"><img src="https://i.postimg.cc/pr8XxzMB/Save-Clip-App-571027702-18042717137693983-8532407907021744851-n.webp"></div> 
+  <div class="card macro hidden"><img src="https://i.postimg.cc/BZwxv09K/Save-Clip-App-580869331-18044408639693983-8200330691827437732-n.webp"></div>
+  <div class="card macro hidden"><img src="https://i.postimg.cc/d08prMgX/1000027867.png"></div>
+  <div class="card macro hidden"><img src="https://i.postimg.cc/Hk09tps8/1000027906.jpg"></div>
+ 
+
+  <!-- Night -->
+  <div class="card night hidden"><img src="https://i.postimg.cc/P5m08ppd/1000027905-(1).jpg"></div>
+  <div class="card night hidden"><img src="https://i.postimg.cc/Wz543jfn/Save-Clip-App-581744964-18044777642693983-6494631971434703839-n.webp"></div>
+  <div class="card night hidden"><img src="https://i.postimg.cc/8PTZnKjF/1000027900.webp"></div>
+  <div class="card night hidden"><img src="https://i.postimg.cc/VvfX4h4K/1000027894.webp"></div>
+  <div class="card night hidden"><img src="https://i.postimg.cc/Xqqpr6sy/1000027908.jpg"></div>
+  <div class="card night hidden"><img src="https://i.postimg.cc/d091nVXt/1000027907.jpg"></div>
+  <div class="card night hidden"><img src="https://i.postimg.cc/FsQKtc4Q/1000027903-(1).webp"></div>
+  <div class="card night hidden"><img src="https://i.postimg.cc/L43cXZPX/1000027898.webp"></div>
+  <div class="card night hidden"><img src="https://i.postimg.cc/rptmX9Km/1000027909.jpg"></div>
+  <div class="card night hidden"><img src="https://i.postimg.cc/9X1ckkJL/1000027912.png"></div>
+  <div class="card night hidden"><img src="https://i.postimg.cc/DwL3dpNC/1000027911.png"></div>
+
+</div>
+
+</div>
+
+<script>
+const buttons = document.querySelectorAll('.filter-btn');
+const gallery = document.querySelector('#gallery');
+const cards = document.querySelectorAll('.card');
+
+buttons.forEach(btn => {
+  btn.addEventListener('click', () => {
+
+    gallery.classList.remove('hidden-section');  // show gallery
+
+    buttons.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    const filter = btn.dataset.filter;
+
+    cards.forEach(card => {
+      card.classList.add('hidden');
+      if (card.classList.contains(filter)) {
+        card.classList.remove('hidden');
+      }
+    });
+
+  });
+});
+</script>
+
+</body>
+</html>
